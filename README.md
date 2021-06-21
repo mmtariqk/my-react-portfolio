@@ -1,7 +1,5 @@
 ## React Portfolio
 
-06/20/21 - Final
- Tonight
  
 ### Application Deployment 
 
@@ -9,7 +7,7 @@
 
 ### Application Screenshot
 
-![](src/assets/images/app-screenshot.png)
+
 
 ### User Story
 
