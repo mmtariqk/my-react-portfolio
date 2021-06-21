@@ -1,8 +1,8 @@
 import React from 'react';
 import Avatar from '../assets/images/avatar.png';
 import BerkeleyLogo from '../assets/images/berkeley.png';
-import PittsburghLogo from '../assets/images/pittsburgh.png';
-import CarletonLogo from '../assets/images/carleton.png';
+import PittsburghLogo from '../assets/images/CECOS-University-Pk.png';
+import CarletonLogo from '../assets/images/University-of-Peshawar.png';
 import '../App.css';
 
 const About = () => {
