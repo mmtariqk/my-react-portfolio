@@ -18,8 +18,8 @@ dotenv
 ### Screenshots
 <img width="1878" alt="react-portfolio" src="https://user-images.githubusercontent.com/77028806/122721171-33d2ad80-d225-11eb-9386-a9bcc1f1567e.png">
 
-### Application Deployment 
-
+### Application Deployed Here 
+https://mmtariqk.github.io/my-react-portfolio/
 
 ### Installation
 First clone the repo to your machine. In order to install the necessary dependencies, run 'npm install' in your terminal.
