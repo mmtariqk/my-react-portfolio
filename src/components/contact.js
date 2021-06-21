@@ -9,7 +9,7 @@ import '../App.css';
 
 function Contact() {
   return (
-    <div className='container'>
+    <div className='container' id="contact">
         <Jumbotron fluid className="p-0 mb-0">
             <Container className="text-center">
                 <div className="p-md-5">

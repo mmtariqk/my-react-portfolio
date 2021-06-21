@@ -1,40 +1,53 @@
-import React from 'react';
-import { NavLink } from "react-router-dom";
+import React, {useState} from 'react';
+
+// import { Div } from "react-router-dom";
 
 function Navbar() {
+const [current, setcurrent] = useState("about")
     return (
         <div className='topnav'>
             <div className='topnav-left'>
-                <NavLink
+                <a href="#about">
+                <div
                     activeClassName="navbar__link--active"
-                    className="navbar__link"
-                    to="#about"
+                    className={ current==="about" ? "navbar__link--active" : "navbar__link"}  
+                    onClick={()=> setcurrent("about")}
+                    
                 >
-                    <a href="#about">ABOUT</a>
-                </NavLink>
+                 ABOUT  
+                 </div>
+                 </a> 
             </div>
             <div className='topnav-right'>
-                <NavLink
+                <a href="#portfolio">
+                <div
                     activeClassName="navbar__link--active"
-                    className="navbar__link"
-                    to="/portfolio"
+                    className={ current==="portfolio" ? "navbar__link--active" : "navbar__link"}  
+                    onClick={()=> setcurrent("portfolio")}
+                    
                 >
                     PORTFOLIO
-                </NavLink>
-                <NavLink
+                </div>
+                </a>
+
+                <a href="#contact">
+                <div
                     activeClassName="navbar__link--active"
-                    className="navbar__link"
-                    to="/contact"
+                    className={ current==="contact" ? "navbar__link--active" : "navbar__link"}  
+                    onClick={()=> setcurrent("contact")}
                 >
                     CONTACT
-                </NavLink>
-                <NavLink
+                </div>
+                </a>
+                <a href="#resume">
+                <div
                     activeClassName="navbar__link--active"
-                    className="navbar__link"
-                    to="/resume"
+                    className={ current==="resume" ? "navbar__link--active" : "navbar__link"}  
+                    onClick={()=> setcurrent("resume")}
                 >
                     RESUME
-                </NavLink>
+                </div>
+                </a>
             </div>
         </div>
     );

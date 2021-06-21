@@ -15,7 +15,7 @@ import '../portfolio.css';
 const Resume = () => {
     return (
         <React.Fragment>
-            <div className='container'>
+            <div className='container' id="resume">
                 <div className='row'>
                     <div className='col'>
                         <div className='card' style={{backgroundColor: "rgb(163, 219, 236)"}}>
