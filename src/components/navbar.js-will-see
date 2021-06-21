@@ -1,0 +1,61 @@
+import React from 'react';
+import { NavLink } from "react-router-dom";
+
+
+function navbar() {
+
+const togglenav = () => {
+// navbarLinks.classList.toggle('active')
+console.log('cliack');
+
+}
+
+    return (
+        <div>
+            <nav class="navbar">
+        <div class="brand-title">Brand Name</div>
+        <a href="#" onClick={togglenav} class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <NavLink
+                    activeClassName="navbar__link--active"
+                    className="navbar__link"
+                    to="/about"
+                >
+                    ABOUT
+                </NavLink>
+            </div>
+            <div className='topnav-right'>
+                <NavLink
+                    activeClassName="navbar__link--active"
+                    className="navbar__link"
+                    to="/portfolio"
+                >
+                    PORTFOLIO
+                </NavLink>
+                <NavLink
+                    activeClassName="navbar__link--active"
+                    className="navbar__link"
+                    to="/contact"
+                >
+                    CONTACT
+                </NavLink>
+                <NavLink
+                    activeClassName="navbar__link--active"
+                    className="navbar__link"
+                    to="/resume"
+                >
+                    RESUME
+                </NavLink>
+        </div>
+      </nav>
+        </div>
+    )
+}
+
+export default navbar
+
+
