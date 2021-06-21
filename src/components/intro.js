@@ -20,8 +20,10 @@ const Intro= () => {
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      "intro",
+                      "intro:",
+                      "Full Stack Developer",
                       "Back End Developer",
+                      "Front End Developer",
                       "Software Engineer"
                     ]}
                     typeSpeed={60}
