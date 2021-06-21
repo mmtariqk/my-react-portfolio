@@ -15,11 +15,11 @@ Jsx
 Tailwind CSS
 Sanity.io
 
- 
-### Application Deployment 
-
 
 ### Screenshots
+<img width="1878" alt="react-portfolio" src="https://user-images.githubusercontent.com/77028806/122721171-33d2ad80-d225-11eb-9386-a9bcc1f1567e.png">
+
+### Application Deployment 
 
 
 
