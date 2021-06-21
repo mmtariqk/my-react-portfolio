@@ -1,11 +1,25 @@
-## React Portfolio
+## My React Portfolio
+
+### Description
+This my portfolio built with react.
+
+### Technologies Used
+Node.js
+React
+react-router-dom
+react-reveal
+react-typed
+react-social icons
+emailjs
+Jsx
+Tailwind CSS
+Sanity.io
 
  
 ### Application Deployment 
 
 
-
-### Application Screenshot
+### Screenshots
 
 
 
