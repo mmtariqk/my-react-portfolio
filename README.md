@@ -7,6 +7,8 @@ This my portfolio built with react.
 Node.js
 React
 react-router-dom
+JSX
+emailjs
 react-reveal
 react-typed
 react-social icons
