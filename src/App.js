@@ -7,7 +7,7 @@ import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Resume from './components/resume';
 import './App.css';
-// import Map from './components/map';
+import Intro from './components/intro';
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <div className="App">
             <Header/>
             <Slider />
+            {/* <Intro /> */}
             <About id="about" />  
             <Portfolio />
             <Contact />

@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import './Slider.css'
 import BtnSlider from './BtnSlider'
 import dataSlider from './dataSlider'
+import Intro from '../intro';
 
 
 export default function Slider() {

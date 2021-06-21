@@ -4,6 +4,7 @@ import BerkeleyLogo from '../assets/images/berkeley.png';
 import PittsburghLogo from '../assets/images/CECOS-University-Pk.png';
 import CarletonLogo from '../assets/images/University-of-Peshawar.png';
 import '../App.css';
+import Intro from './intro';
 
 const About = () => {
     return (
@@ -20,6 +21,7 @@ const About = () => {
                             </div>
 
                             <div className='card-body'>
+                                <Intro /> 
                                 <div className="row">
                                     <p className='p-about'>
                                         Meticulous web developer with over 5 years of frontend experience and passion for responsive website design and a firm believer in the mobile-first-approach. W3C certified. Implemented new responsive website approach which increased mobile traffic by 25%
