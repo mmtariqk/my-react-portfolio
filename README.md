@@ -10,10 +10,7 @@ react-router-dom
 react-reveal
 react-typed
 react-social icons
-emailjs
-Jsx
-Tailwind CSS
-Sanity.io
+dotenv
 
 
 ### Screenshots
@@ -22,6 +19,11 @@ Sanity.io
 ### Application Deployment 
 
 
+### Installation
+First clone the repo to your machine. In order to install the necessary dependencies, run 'npm install' in your terminal.
+
+### Usage
+After installing all the dependencies, run npm start in your terminal to start the react app. For the contact form section in Contact.jsx, provide your own emailjs server-id and user-id in place of the process.env variables.
 
 ### User Story
 
