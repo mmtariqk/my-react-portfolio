@@ -6,7 +6,7 @@ function Footer() {
         <div className="footer" id="footer">
             <div className='img-link'>
                 <a href="https://github.com/mmtariqk" target="_blank"><img src="https://img.icons8.com/color/48/000000/github-2.png" alt="Github" className="icon"/></a>
-                <a href="https://www.linkedin.com/mmtariqk/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" className="icon"/></a>
+                <a href="https://www.linkedin.com/in/mmtariqk/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" className="icon"/></a>
                 <a href="https://twitter.com/mmtariqk" target="_blank"><img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter" className="icon"/></a>
             </div>
             <p className='footer-info'>
