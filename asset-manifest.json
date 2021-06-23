@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.4d435614.chunk.css",
-    "main.js": "/my-react-portfolio/static/js/main.f37cccf3.chunk.js",
-    "main.js.map": "/my-react-portfolio/static/js/main.f37cccf3.chunk.js.map",
+    "main.js": "/my-react-portfolio/static/js/main.30b7f981.chunk.js",
+    "main.js.map": "/my-react-portfolio/static/js/main.30b7f981.chunk.js.map",
     "runtime-main.js": "/my-react-portfolio/static/js/runtime-main.23411ad0.js",
     "runtime-main.js.map": "/my-react-portfolio/static/js/runtime-main.23411ad0.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/my-react-portfolio/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.0815af98.chunk.js": "/my-react-portfolio/static/js/2.0815af98.chunk.js",
-    "static/js/2.0815af98.chunk.js.map": "/my-react-portfolio/static/js/2.0815af98.chunk.js.map",
+    "static/js/2.23e83c03.chunk.js": "/my-react-portfolio/static/js/2.23e83c03.chunk.js",
+    "static/js/2.23e83c03.chunk.js.map": "/my-react-portfolio/static/js/2.23e83c03.chunk.js.map",
     "index.html": "/my-react-portfolio/index.html",
-    "precache-manifest.850e7b69e1142f5980c7cc4f6c377e09.js": "/my-react-portfolio/precache-manifest.850e7b69e1142f5980c7cc4f6c377e09.js",
+    "precache-manifest.2f2c3f4a519a00996c5a858504dd33fa.js": "/my-react-portfolio/precache-manifest.2f2c3f4a519a00996c5a858504dd33fa.js",
     "service-worker.js": "/my-react-portfolio/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/my-react-portfolio/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.4d435614.chunk.css.map": "/my-react-portfolio/static/css/main.4d435614.chunk.css.map",
-    "static/js/2.0815af98.chunk.js.LICENSE.txt": "/my-react-portfolio/static/js/2.0815af98.chunk.js.LICENSE.txt",
+    "static/js/2.23e83c03.chunk.js.LICENSE.txt": "/my-react-portfolio/static/js/2.23e83c03.chunk.js.LICENSE.txt",
     "static/media/CECOS-University-Pk.png": "/my-react-portfolio/static/media/CECOS-University-Pk.ab2fb76b.png",
     "static/media/Home-Care-Assistance.png": "/my-react-portfolio/static/media/Home-Care-Assistance.13e48a45.png",
     "static/media/Javascript-regex.png": "/my-react-portfolio/static/media/Javascript-regex.a3323cce.png",
@@ -44,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.23411ad0.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.0815af98.chunk.js",
+    "static/js/2.23e83c03.chunk.js",
     "static/css/main.4d435614.chunk.css",
-    "static/js/main.f37cccf3.chunk.js"
+    "static/js/main.30b7f981.chunk.js"
   ]
 }
