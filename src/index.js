@@ -8,14 +8,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 // import ParticlesBg from "particles-bg";
 
 // https://reactjsexample.com/react-particles-animation-background-component/
-
-ReactDOM.render(
-    <Router>
-        <App />
-        {/* <ParticlesBg type="square" bg={true}/> */}
-    </Router>,
-    document.getElementById('root')
-);
+//{/* <ParticlesBg type="square" bg={true}/> */}
+//
+ReactDOM.render(<App />,document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -2,14 +2,14 @@ import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
 
-const Intro= () => {
+const Intro = () => {
   
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
       <div id="home" className="intro route bg-image background">
-        <div id="stars" />
-        <div id="stars2" />
-        <div id="stars3" />
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
 
         <div className="intro-content display-table">
           <div className="table-cell">
@@ -18,7 +18,7 @@ const Intro= () => {
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
-                  <Typed
+                  {/* <Typed
                     strings={[
                       "intro:",
                       "Full Stack Developer",
@@ -30,7 +30,7 @@ const Intro= () => {
                     backDelay={1100}
                     backSpeed={30}
                     loop
-                  />
+                  /> */}
                 </strong>
               </p>
               {/* <p className="pt-3">

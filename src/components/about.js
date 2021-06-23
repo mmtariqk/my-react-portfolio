@@ -21,7 +21,7 @@ const About = () => {
                             </div>
 
                             <div className='card-body'>
-                                <Intro /> 
+                                {/* <Intro />  */}
                                 <div className="row">
                                     <p className='p-about'>
                                         Meticulous web developer with over 5 years of frontend experience and passion for responsive website design and a firm believer in the mobile-first-approach. W3C certified. Implemented new responsive website approach which increased mobile traffic by 25%

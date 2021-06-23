@@ -28,6 +28,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
+    "devbuildsetup": "npm run build; npm run postdevbuild",
+    "postdevbuild": "cd build; mkdir my-react-portfolio; mv * my-react-portfolio",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

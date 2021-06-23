@@ -9,7 +9,7 @@ const [current, setcurrent] = useState("about")
             <div className='topnav-left'>
                 <a href="#about">
                 <div
-                    activeClassName="navbar__link--active"
+                    
                     className={ current==="about" ? "navbar__link--active" : "navbar__link"}  
                     onClick={()=> setcurrent("about")}
                     
@@ -21,7 +21,7 @@ const [current, setcurrent] = useState("about")
             <div className='topnav-right'>
                 <a href="#portfolio">
                 <div
-                    activeClassName="navbar__link--active"
+                    
                     className={ current==="portfolio" ? "navbar__link--active" : "navbar__link"}  
                     onClick={()=> setcurrent("portfolio")}
                     
@@ -32,7 +32,7 @@ const [current, setcurrent] = useState("about")
 
                 <a href="#contact">
                 <div
-                    activeClassName="navbar__link--active"
+                    
                     className={ current==="contact" ? "navbar__link--active" : "navbar__link"}  
                     onClick={()=> setcurrent("contact")}
                 >
@@ -41,7 +41,7 @@ const [current, setcurrent] = useState("about")
                 </a>
                 <a href="#resume">
                 <div
-                    activeClassName="navbar__link--active"
+                    
                     className={ current==="resume" ? "navbar__link--active" : "navbar__link"}  
                     onClick={()=> setcurrent("resume")}
                 >

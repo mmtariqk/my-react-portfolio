@@ -17,12 +17,14 @@ function App() {
         <div className="App">
             <Header/>
             <Slider />
-            {/* <Intro /> */}
-            <About id="about" />  
+            <About id="about" /> 
+            
+            
+            
             <Portfolio />
             <Contact />
             <Resume />
-            {/* <Map /> */}
+            
             <Footer/>
  
 

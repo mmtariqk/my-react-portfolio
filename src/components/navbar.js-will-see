@@ -21,7 +21,7 @@ console.log('cliack');
         </a>
         <div class="navbar-links">
           <NavLink
-                    activeClassName="navbar__link--active"
+                    
                     className="navbar__link"
                     to="/about"
                 >
@@ -30,21 +30,21 @@ console.log('cliack');
             </div>
             <div className='topnav-right'>
                 <NavLink
-                    activeClassName="navbar__link--active"
+                    
                     className="navbar__link"
                     to="/portfolio"
                 >
                     PORTFOLIO
                 </NavLink>
                 <NavLink
-                    activeClassName="navbar__link--active"
+                    
                     className="navbar__link"
                     to="/contact"
                 >
                     CONTACT
                 </NavLink>
                 <NavLink
-                    activeClassName="navbar__link--active"
+                    
                     className="navbar__link"
                     to="/resume"
                 >
