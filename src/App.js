@@ -10,19 +10,28 @@ import Resume from './components/resume';
 import './App.css';
 import Intro from './components/intro';
 
+function Wrapper(prop) {
+    return (
+        <>
+        <Slider/>
+        {prop.component}
+        
+        </>
+    )
+}
 function Pagerender (props) {
 var page;
     if (props.page=="about"){
-        page=<About />
+        page=<Wrapper component={<About/>} />
     } else if (props.page=="portfolio"){
-    page=<Portfolio />
+    page=<Wrapper component={<Portfolio />} />
 
 
 } else if (props.page=="contact"){
-    page=<Contact />
+    page=<Wrapper component={<Contact />} />
 
 } else if (props.page=="resume"){
-    page=<Resume />
+    page=<Wrapper component={<Resume />} />
 }
 
 
